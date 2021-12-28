@@ -25,7 +25,7 @@ function Navbar() {
         alamin@brainstation-23.com
       </Menu.Item>
 
-      <Menu.Item className="login">
+      <Menu.Item className="to_right">
         <Badge count={cart}>
           <ShoppingCartOutlined style={{ fontSize: "20px" }} />
         </Badge>

@@ -243,6 +243,6 @@ const products = [
     }
  ]
 
- exports.getAllProducts = async (req,res) => {
+ exports.getAllProducts =  (req,res) => {
      res.send(products)
  }
