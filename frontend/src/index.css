@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.login {
+  margin-left: auto !important;
+}
+
+.ant-card-meta-description {
+  overflow: hidden;
+  font-weight: 500;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.responsive_img {
+  width: 100%;
+  height: 400px;
+  /* object-fit: cover; */
+  /* Prevent the image from stretching. So it crops the image to prevent from awkward stretching */
+}
